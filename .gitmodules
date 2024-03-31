@@ -1,0 +1,3 @@
+[submodule "vendor/nifti_clib"]
+	path = vendor/nifti_clib
+	url = https://github.com/NIFTI-Imaging/nifti_clib
