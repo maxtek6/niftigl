@@ -10,6 +10,7 @@ int niftigl_stage(const char *path, GLuint **slices, size_t *count)
 
     *count = image->nz;
 
-done:
+
+
     return 0;
 }
