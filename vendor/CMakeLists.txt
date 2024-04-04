@@ -1,1 +1,8 @@
+if(WIN32)
+    add_subdirectory(zlib)
+    set(ZLIB_LIBRARY ${CMAKE_CURRENT_BINARY_DIR}/zlib/zlibstatic.lib)
+    set(ZLIB_INCLUDE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/zlib)
+endif()
+option(NIFTI_BUILD_APPLICATIONS "" OFF)
+option(BUILD_TESTING "" OFF)
 add_subdirectory(nifti_clib)
